@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.15;}
+	.st1{fill:#FCB415;}
+	.st2{fill:#E8A222;}
+</style>
+<g>
+	<circle class="st0" cx="255" cy="255" r="150"/>
+	<circle class="st1" cx="245" cy="245" r="150"/>
+	
+		<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 -107.9066 392.7385)" class="st2" cx="176.9" cy="259.8" rx="32.1" ry="32.1"/>
+	<circle class="st2" cx="250.4" cy="287.2" r="11.9"/>
+	<path class="st2" d="M278.2,138.3c0,4.8-3.9,8.7-8.7,8.7c-4.8,0-8.7-3.9-8.7-8.7c0-4.8,3.9-8.7,8.7-8.7
+		C274.3,129.6,278.2,133.5,278.2,138.3z"/>
+	<path class="st2" d="M341.6,339.1c0,4.8-3.9,8.7-8.7,8.7c-4.8,0-8.7-3.9-8.7-8.7c0-4.8,3.9-8.7,8.7-8.7
+		C337.8,330.5,341.6,334.3,341.6,339.1z"/>
+	<circle class="st2" cx="341.6" cy="263" r="26.7"/>
+</g>
+</svg>

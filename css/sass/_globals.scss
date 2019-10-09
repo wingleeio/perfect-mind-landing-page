@@ -1,0 +1,64 @@
+html {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: $primary-font;
+	font-size: 1.1em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: $dark;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $secondary-font;
+}
+
+a {
+	color: $orange;
+	&:hover {
+		color: darken($orange, 10%);
+	}
+}
+
+#overflow {
+	overflow: hidden;
+}
+
+.wrapper {
+	width: 1178px;
+	padding: $default-spacing;
+	@media (max-width) {
+		padding: $default-spacing * 2;
+	}
+}
+
+.logo {
+	height: 48px;
+	filter: brightness(0) invert(1);
+	img {
+		height: 100%;
+	}
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	color: $white;
+	background-color: $dark;
+	padding: 48px 0px;
+}

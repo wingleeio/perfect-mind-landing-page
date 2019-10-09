@@ -1,0 +1,26 @@
+.button-group {
+	padding: $default-spacing * 2 0px;
+	.button {
+		margin-right: $default-spacing;
+	}
+}
+
+.button {
+	padding: 16px 32px;
+	text-decoration: none;
+	&.primary {
+		background-color: $orange;
+		color: darken($orange, 50%);
+		transition: background-color 0.2s ease-in;
+		&:hover {
+			background-color: darken($orange, 10%);
+		}
+	}
+	&.white {
+		background-color: $white;
+		transition: background-color 0.2s ease-in;
+		&:hover {
+			background-color: darken($white, 10%);
+		}
+	}
+}

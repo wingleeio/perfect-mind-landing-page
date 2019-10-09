@@ -1,0 +1,22 @@
+#halloween-promo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $white;
+	background-color: $orange;
+	.wrapper {
+		align-items: center;
+		h1 {
+			flex-grow: 2;
+			margin: 12px;
+		}
+		.button {
+			margin: 12px;
+		}
+		display: flex;
+		@media (max-width: 1000px) {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+.feature {
+	display: flex;
+	justify-content: center;
+	padding: $default-spacing * 4 0px;
+	&.gray {
+		background-color: lighten($dark, 65%);
+	}
+	&.center {
+		text-align: center;
+		.section {
+			width: 70%;
+			@media (max-width: 768px) {
+				width: 100%;
+			}
+		}
+		.wrapper {
+			justify-content: center;
+		}
+	}
+	.wrapper {
+		display: flex;
+		align-items: center;
+		@media (max-width: 768px) {
+			flex-direction: column;
+			.first {
+				order: 0;
+			}
+			.second {
+				order: 1;
+			}
+		}
+	}
+	.section {
+		width: 50%;
+		padding: $default-spacing;
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}
+	img {
+		height: 100%;
+		width: 100%;
+	}
+}
